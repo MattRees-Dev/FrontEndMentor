@@ -14,8 +14,9 @@
 body {
     max-height: 100vh;
     max-width: 100vw;
-    background-image: url('/images/pattern-curve.svg') no-repeat;
-    background-position: bottom;
+    background-image: url('/images/pattern-bg.svg'), url('/images/pattern-curve.svg');
+    background-position: 90% 35%, bottom left;
+    background-repeat: no-repeat;
     font-family: Inter, sans-serif;
 }
 
