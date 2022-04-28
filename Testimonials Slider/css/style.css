@@ -20,6 +20,13 @@ body {
     font-family: Inter, sans-serif;
 }
 
+@media screen and (max-width: 375px) {
+    body {
+        background-position: 90% 35%, bottom left;
+        background-size: 400px;
+    }
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -46,6 +53,12 @@ body {
     align-items: center;
 }
 
+@media screen and (max-width: 375px) {
+    .testimonials {
+        padding-inline: 25px;
+    }
+}
+
 .hidden {
     display: none !important;
 }
@@ -57,6 +70,12 @@ body {
     font-weight: 300;
     line-height: 1.35;
     color: var(--dark-Blue);
+}
+
+@media screen and (max-width: 375px) {
+    .quote--one, .quote--two {
+        font-size: 16px;
+    }
 }
 
 .quote--name {
