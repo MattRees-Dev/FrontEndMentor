@@ -21,6 +21,12 @@ body {
 }
 
 @media screen and (max-width: 375px) {
+    .column { order:2; }
+    .images { order: 1; }
+    .row { justify-content: center; }
+}
+
+@media screen and (max-width: 375px) {
     body {
         background-position: 90% 35%, bottom left;
         background-size: 400px;
@@ -44,6 +50,13 @@ body {
 
 .content-wrapper {
     width: 120%;
+}
+
+@media screen and (max-width:375px) {
+    .content-wrapper {
+        width: auto;
+        text-align: center;
+    }
 }
 
 .testimonials {
@@ -148,6 +161,13 @@ body {
     margin: 0 auto;
     box-shadow: 0 20px 50px -40px black;
     z-index: -1;
+}
+
+@media screen and (max-width: 375px) {
+    .portrait--one,
+    .portrait--two {
+        width: 300px;
+    }
 }
 
 /* Arrows */
