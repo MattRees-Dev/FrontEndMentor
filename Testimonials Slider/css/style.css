@@ -25,6 +25,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 100%;
+    gap: 10px;
 }
 
 .column {
@@ -35,9 +36,8 @@ body {
 }
 
 .content-wrapper {
-    width: 115%;
+    width: 120%;
 }
-
 
 .testimonials {
     display: flex;
@@ -54,6 +54,7 @@ body {
 .quote--one, .quote--two {
     font-size: 32px;
     font-weight: 300;
+    line-height: 1.35;
     color: var(--dark-Blue);
 }
 
@@ -64,17 +65,15 @@ body {
 
 .job--title {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
+    color: var(--grayish-Blue);
 }
-
-
-
 
 /* Images */
 .quotation--marks {
     position: absolute;
     z-index: -1;
-    left: 14%;
+    left: 18%;
     top: 25%;
 }
 
@@ -130,13 +129,13 @@ button, .arrow--left, .arrow--right {
 
 
 
-
-
-
 /* Attribution */
 .attribution {
+    position: absolute;
+    bottom: 15px;
     font-size: 11px;
     text-align: center;
+    width: 100vw;
 }
 
 .attribution a {
