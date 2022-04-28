@@ -85,6 +85,34 @@ body {
     justify-content: center;
 }
 
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 5px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+@keyframes floating {
+    0% {
+      -webkit-transform: translate(0) rotate(-0.25deg);
+              transform: translate(0) rotate(-0.25deg);
+    }
+    50% {
+      -webkit-transform: translateY(-0.25rem) rotate(1deg);
+              transform: translateY(-0.25rem) rotate(1deg);
+    }
+    100% {
+      -webkit-transform: translate(0) rotate(-0.25deg);
+              transform: translate(0) rotate(-0.25deg);
+    }
+  }
+
 .portrait--one, .portrait--two {
     margin: 0 auto;
     box-shadow: 0 20px 50px -40px black;
