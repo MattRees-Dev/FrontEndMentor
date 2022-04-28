@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 :root {
@@ -22,9 +22,17 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-    .column { order:2; }
-    .images { order: 1; }
-    .row { justify-content: center; }
+    .column {
+        order: 2;
+    }
+
+    .images {
+        order: 1;
+    }
+
+    .row {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -87,7 +95,9 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-    .quote--one, .quote--two {
+
+    .quote--one,
+    .quote--two {
         font-size: 16px;
     }
 }
@@ -109,6 +119,12 @@ body {
     z-index: -1;
     left: 19%;
     top: 21%;
+}
+
+@media screen and (max-width: 375px) {
+    .quotation--marks {
+        position: unset;
+    }
 }
 
 .images {
@@ -165,6 +181,7 @@ body {
 }
 
 @media screen and (max-width: 375px) {
+
     .portrait--one,
     .portrait--two {
         width: 300px;
@@ -178,6 +195,15 @@ body {
     position: absolute;
     bottom: -25px;
     left: 50px;
+}
+
+@media screen and (max-width: 375px) {
+    .arrows {
+        left: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
 }
 
 button,
