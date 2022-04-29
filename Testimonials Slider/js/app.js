@@ -12,7 +12,7 @@ prevBtn.addEventListener('click', function () {
     quoteOne.classList.toggle('hidden');
     quoteTwo.classList.toggle('hidden');
     portraitOne.classList.toggle('hidden');
-    portraitTwo.classList.toggle('hidden');
+    portraitTwo.classList.toggle('hidden'); 
 });
 
 nextBtn.addEventListener('click', function () {
