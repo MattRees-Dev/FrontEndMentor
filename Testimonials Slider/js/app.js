@@ -14,7 +14,7 @@ if (mediaQuery.matches) {
     console.log('This Works!!!');
     user.classList.add('column');
     user.classList.remove('row');
-}
+};
 
 prevBtn.addEventListener('click', function () {
     console.log('Prev');
