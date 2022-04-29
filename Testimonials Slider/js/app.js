@@ -12,8 +12,8 @@ const mediaQuery = window.matchMedia('(max-width: 375px)');
 const user = document.querySelector('.user');
 if (mediaQuery.matches) {
     console.log('This Works!!!');
-    user.classList.toggle('column');
-    user.classList.toggle('row');
+    user.classList.add('column');
+    user.classList.remove('row');
 }
 
 prevBtn.addEventListener('click', function () {
